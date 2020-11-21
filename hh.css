@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    color: #555;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.row{
+     max-width: 1500;
+     margin: 0 auto 0 auto;
+   
+}
+
+header{
+    background-image:linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(d.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    
+}
+    
+.textbox{
+    width: 1140px;
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+
+}
+
+h1{
+    font-size: 250%;
+    margin: 0;
+    font-weight: 300;
+    font-size: 350%;
+    margin-bottom: 40px;
+    border-bottom: unset;
+   
+}
+
+.ll:link,
+.ll:visited{
+    display: inline-block;
+    text-decoration: none;
+    border: solid 2px #074e3c;
+    color: rgb(79, 80, 77);
+    border-radius: 20px;
+    font-size: 12pt;
+    transition: 1s;
+    
+}
+
+.ll:hover,
+.ll:active{
+    background-color: springgreen;
+    color: white;
+  
+}
+
+.logo{
+    float: right;
+    border-radius: 300px;
+    border: unset;
+    height: 50px;
+    width: 50px;
+}
+
+.logo:hover,
+.logo:active{
+    border:yellow solid 5px;
+
+}
+
+
+
+.main{
+    list-style: none;
+    padding-left: 10px;
+    display: flex;
+    background-color: rgba(44, 43, 43, 0.3);
+    width: 350px;
+    border-bottom-right-radius:20px;
+    border-top-right-radius:20px;
+}
+
+.e{
+    margin-left: 30px;
+    display: inline-block;
+    color: rgb(238, 237, 237);
+    text-decoration: none;
+    border-bottom: none;
+    transition: border-bottom 0.3s;
+}
+
+.e:hover,
+.e:active{
+    border-bottom: 5px solid yellow;
+}
+
+
+section{
+  
+    padding: 40px 0 0 30px;
+}
+h2{
+    font-size: 180%;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2::after{
+    display: block;
+    content:'';
+    height: 3px;
+    width: 100px;
+    background-color: yellow;
+    margin: 0 auto;
+}
+
+#ali {
+    line-height: 145%;
+    text-align: center;
+    width: 800px;
+    margin: 40px auto 50px auto;
+}
+.cards{
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 40px;
+}
+
+.card{
+    width: 21%;
+}
+
+
+.card ion-icon{
+    width: 60px;
+    height: 60px;
+    color: #074e3c;
+}
+h3{
+    font-size: 110%;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.card p{
+    font-size: 90%;
+    line-height: 1.5;
+    width: 90%;
+
+}
